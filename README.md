@@ -49,18 +49,12 @@ cv edora/
 
 Semua informasi dapat Anda sesuaikan dengan mudah di berkas `index.html`:
 
-### 1. Mengubah Foto Profil
-Di `index.html`, cari bagian:
+### 1. Foto Profil
+Foto profil Anda sudah terpasang menggunakan berkas foto di `images/gambar edora.jpeg`:
 ```html
-<div class="avatar-placeholder">
-    <span class="avatar-initials">SE</span>
-    ...
-</div>
+<img src="images/gambar edora.jpeg" alt="Foto Profil Syamimi Edora" class="profile-avatar-img">
 ```
-Jika Anda ingin mengganti inisial dengan foto asli Anda, cukup simpan foto Anda (misal `foto-edora.jpg` di folder ini) lalu ganti bagian di atas dengan:
-```html
-<img src="foto-edora.jpg" alt="Syamimi Edora" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
-```
+Jika ingin menggantinya di masa depan, Anda cukup mengganti berkas di folder `images/` atau mengubah path `src="..."`.
 
 ### 2. Mengubah Kontak (Email, No. HP, LinkedIn)
 Cari teks `syamimiedora@email.com` dan `+62 812-3456-7890` di `index.html` dan `script.js`, lalu sesuaikan dengan nomor dan alamat email asli Anda.
